@@ -14,13 +14,24 @@ class BigCat(BigThing):
     def __init__(self, something, weight):
         super().__init__(something)
         self._weight = weight
+<<<<<<< HEAD
     def size(self):
         if self._weight>15 and self._weight <=20:
+=======
+
+    def size(self):
+        if self._weight > 15 and self._weight <= 20:
+>>>>>>> master
             print("Fat")
         if self._weight > 20:
             print("Very Fat")
         else:
             print("OK")
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> master
 def main():
     cutie = BigCat("mitzy", 22)
     cutie.size()
